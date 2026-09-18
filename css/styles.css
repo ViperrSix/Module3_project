@@ -1,0 +1,20 @@
+header{
+    text-align: center;
+    font-size: 50px;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+@media (max-width: 800px) {
+    .game img {
+        width: 100%;
+        max-width: 300px;
+        height: 400px;
+        object-fit: cover;
+    }
+}
